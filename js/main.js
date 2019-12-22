@@ -38,13 +38,13 @@ function switchMode(){
 		mode = 'edit';
 		$('#addFormC2 input,#addFormC2 textarea,#addFormC2 #send2').show();
 		$('#addFormC2 .input,#addFormC2 .textarea').hide();
-		$('#edit').html('NO EDITAR');
+		$('#edit').html(DONT_EDIT);
 		$('#addFormC2').removeClass('noedit').addClass('edit');
 	} else {
 		mode = 'show';
 		$('#addFormC2 input,#addFormC2 textarea,#addFormC2 #send2').hide();
 		$('#addFormC2 .input,#addFormC2 .textarea').show();
-		$('#edit').html('EDITAR');
+		$('#edit').html(EDIT);
 		$('#addFormC2').removeClass('edit').addClass('noedit');
 	}
 	$('div[data-id="'+pepid+'"]').trigger('click');

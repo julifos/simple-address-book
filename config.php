@@ -34,7 +34,7 @@ const PHONE_REGEX_PATTERNS = array('/^(\+34|0034|34)?[\s|\-|\.]?[6|7|8|9][\s|\-|
 *                                *
 * * * * * * * * * * * * * * * * **/
 
-if(LANGUAGE!="YOUR_LANGUAGE_HERE"){
+if(LANGUAGE!=("YOUR_LA"."NGUAGE_HERE")){
 	$json = file_get_contents(__DIR__."/lang/locale_".LANGUAGE.".json", TRUE);
 	$jsonIterator = new RecursiveIteratorIterator(new RecursiveArrayIterator(json_decode($json)),RecursiveIteratorIterator::SELF_FIRST);
 

@@ -127,9 +127,6 @@ if(isset($_GET["search"])){
 	$totalPages = floor($totalPages * 1/CONTACTS_PER_SHEET) + 1;
 	$addon = "";
 }
-/*
-TODO: crear autoinstall
-*/
 ?>
 <!DOCTYPE html>
 <html lang="<? echo LANGUAGE; ?>" xml:lang="<? echo LANGUAGE; ?>">
@@ -156,6 +153,8 @@ TODO: crear autoinstall
 <?php
 echo "var people = JSON.parse('".addslashes(json_encode($people))."');\n";
 echo "const DELETE_CONFIRM = JSON.parse('".addslashes(json_encode(DELETE_CONFIRM))."');\n";
+echo "const EDIT = JSON.parse('".addslashes(json_encode(EDIT))."');\n";
+echo "const DONT_EDIT = JSON.parse('".addslashes(json_encode(DONT_EDIT))."');\n";
 echo "var phoneRegexes = [";
 echo implode(",", PHONE_REGEX_PATTERNS);
 echo "];\n";
