@@ -22,7 +22,10 @@ Tested with PHP 5.6 and MySQL 5.
 ## 3. Installation
 Place the files in your server and visit the place using a web
 browser. Follow the instructions.
-Also you can edit manually the file config.php.
+When entering the DB name, keep in mind the following: you can
+enter the name of an existing DB. In there a new table will be
+created. Otherwise, a new DB will be created with the name you
+entered in the "database name" text field.
 
 ## 4. License
 This software is under the GNU GENERAL PUBLIC LICENSE v3.
