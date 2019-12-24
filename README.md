@@ -28,5 +28,6 @@ created. Otherwise, a new DB will be created with the name you
 entered in the "database name" text field.
 
 ## 4. License
-This software is under the GNU GENERAL PUBLIC LICENSE v3.
+This software is released under the GNU GENERAL PUBLIC LICENSE v3.
 Please, read the companion LICENSE file.
+Simple Address Book uses jQuery -> https://jquery.com/
