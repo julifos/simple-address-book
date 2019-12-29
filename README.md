@@ -13,7 +13,7 @@ written using PHP and MySQL.
 You may not want everyone else taking a look to your contacts,
 so you can use some kind of easy authentication, such as
 Apache's htaccess authentication. You can take a look here:
-<a href="https://www.google.com/search?q=Password+Protection+with+htaccess" target="_blank">https://www.google.com/search?q=Password+Protection+with+htaccess</a>
+https://www.google.com/search?q=Password+Protection+with+htaccess
 ![Screenshot](http://julifos.com/soft/simple-address-book/screenshot.png "")
 
 ## 2. Requirements
