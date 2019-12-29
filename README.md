@@ -18,7 +18,7 @@ https://www.google.com/search?q=Password+Protection+with+htaccess
 
 ## 2. Requirements
 Any server able to run PHP and MySQL.
-Tested with PHP 5.6 and MySQL 5.
+Tested with PHP 5.6 and 7.3, and MySQL 5.01 thru 5.7.
 
 ## 3. Installation
 Place the files in your server and visit the place using a web
